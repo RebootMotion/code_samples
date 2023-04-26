@@ -8,7 +8,7 @@ load_dotenv()
 
 API_BASE = "https://api.rebootmotion.com"
 API_HEADER = {'x-api-key': os.getenv("API_KEY")}
-CSV_FILE = "../resources/csv/movements_with_pitch_types.csv"
+CSV_FILE = "../resources/movements_with_pitch_types.csv"
 DOM_HAND = "RHA"        # Right Handed
 MOVEMENT_TYPE_ID = 2    # baseball-pitching
 MOCAP_TYPE_ID = 104     # Hawk-Eye High Frame Rate
