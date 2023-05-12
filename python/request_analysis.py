@@ -25,11 +25,6 @@ import requests
 # repository.
 API_KEY = os.getenv("API_KEY")
 
-API_HEADER = {'x-api-key': os.getenv("API_KEY")}
-DOM_HAND = "RHA"        # Right Handed
-MOVEMENT_TYPE_ID = 2    # baseball-pitching
-MOCAP_TYPE_ID = 104     # Hawk-Eye High Frame Rate
-
 
 def main():
     # Step 1. Read CSV file in as a Pandas DataFrame. This
